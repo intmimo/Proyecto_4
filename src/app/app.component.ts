@@ -12,8 +12,8 @@ export class AppComponent {
   title = 'Proyecto_4';
 
   constructor(){
-    console.log("Funciones de prueba");
-    console.warn("Advertencia");
+    console.log("Nuevas funciones");
+    console.warn("Cuidado");
     console.log("Prueba de conflictos")
   }
 }

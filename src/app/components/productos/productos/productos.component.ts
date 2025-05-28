@@ -1,0 +1,11 @@
+import { ChangeDetectionStrategy, Component } from '@angular/core';
+
+@Component({
+  selector: 'app-productos',
+  standalone: true,
+  imports: [],
+  templateUrl: './productos.component.html',
+  styleUrl: './productos.component.css',
+  changeDetection: ChangeDetectionStrategy.OnPush,
+})
+export class ProductosComponent { }
